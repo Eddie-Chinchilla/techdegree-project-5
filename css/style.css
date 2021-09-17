@@ -5,23 +5,22 @@
 }
 .container {
     width: 95%;
-    padding-top: 5em;
-    margin-bottom: 3rem;
+    margin: 3rem auto
 }
 .gallery {
     display: grid;
     width: 100%;
-    max-width: 1000px;
+    max-width: 860px;
     margin: 0 auto;
-    padding: 0 1em;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
     grid-gap: 20px;
 }
 
 input {
     display: block;
     font-size: 20px;
-    width: 75%;
+    width: 70%;
+    max-width: 760px;
     height: 40px;
     padding: 0.5rem;
     margin: 2em auto;
@@ -29,7 +28,6 @@ input {
 }
 
 img {
-    width: 100%;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, .7);
 }
 

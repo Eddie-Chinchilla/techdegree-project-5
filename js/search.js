@@ -4,7 +4,6 @@ search.addEventListener("keyup", searchFilter);
 
 function searchFilter() {
     let x = search.value.toLowerCase();
-        console.log(x);
 
     let photos = document.getElementsByClassName("photo");
 
@@ -13,7 +12,6 @@ function searchFilter() {
         if (cap.includes(x)) {
             photos[i].classList.add("show");
             photos[i].classList.remove("hide");
-            console.log(cap);
         } else {
             photos[i].classList.add("hide");
             photos[i].classList.remove("show");
