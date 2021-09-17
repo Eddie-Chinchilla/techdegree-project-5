@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 95%;
+    padding-top: 5em;
+    margin-bottom: 3rem;
+}
+.gallery {
+    display: grid;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 1em;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+}
+
+input {
+    display: block;
+    font-size: 20px;
+    width: 75%;
+    height: 40px;
+    padding: 0.5rem;
+    margin: 2em auto;
+    border-radius: 10px;
+}
+
+img {
+    width: 100%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .7);
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
